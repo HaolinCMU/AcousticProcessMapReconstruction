@@ -74,19 +74,6 @@ class AcousticSpectrumDefectDataset(Dataset):
                 self._dataset[str(int(input_image_accum_num+i))] = [input_image_subfolder_name_temp, i, path]
 
             input_image_accum_num += len(input_image_path_list_temp)
-            
-        
-
-
-class AcousticSpectrumVisualDataset(Dataset):
-    """
-    """
-
-    def __init__(self, spectrum_dir, meltpool_dir):
-        """
-        """
-
-        pass
 
 
 class FrameAutoencoderDataset(Dataset):

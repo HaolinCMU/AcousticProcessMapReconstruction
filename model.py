@@ -13,7 +13,6 @@ import sys
 import time
 
 import copy
-from xml.dom.expatbuilder import parseString
 import numpy as np
 import torch
 import torch.nn as nn
